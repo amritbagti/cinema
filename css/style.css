@@ -73,8 +73,8 @@ body{
 
 @media (max-width: 576px){
 	.navbar{
-		padding: 0;
-		height: 100px;
+		
+		height: 150px;
 	}
 	.navbar-brand{
 		margin: 0;
@@ -87,8 +87,8 @@ body{
 	.search-bar{
 		margin: 0px;
 		width: 100%;
-		position: absolute;
-		top: 40px;
+		position: relative;
+		
 	}
 	.form-control{
 		width: 70%;
@@ -96,26 +96,9 @@ body{
 	.btn{
 		margin:0px 5px;
 		padding: 3px;
-
-		position: relative;
-		right: 0px;
 	}
-	.navbar-toggler{
-		margin-right: 10px;
-		height: 30px;
-		width: 20px;
-	}
-	.navbar-toggler-icon{
-		position: relative;
-		top: -4.5px;
-		right: 15px;
-	}
-	.mob-nav{
-		margin-top: -50px;
-		margin-left: 5px;
-		margin-right: 5px;
-
-	}
+	
+	
 	
 	.carousel-item img{
 
@@ -126,10 +109,7 @@ body{
 		margin: 0px;
 		padding: 0px;
 	}
-	.px-4{
-
-		padding: 0px;
-	}
+	
 	.carousel{
 		margin: 0px;
 		padding: 0px;
