@@ -69,7 +69,7 @@ body{
 
 /*mobile view*/
 
-@media (max-width: 400px){
+@media (max-width: 576px){
 	
 	.navbar-brand{
 		margin: 0;
