@@ -36,6 +36,10 @@ body{
 	color:#D50054 ;
 	
 }
+.form-inline{
+	margin:0px;
+	padding:0px;
+}
 
 .form-control{
 	border-radius: 20px 20px;
