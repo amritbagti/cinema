@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat+Alternates:wght@100&family=Playfair+Display+SC&family=Poppins:wght@600&display=swap');
+@import "compass/css3";
+
+body{
+	background-image: linear-gradient(90deg,#281D21,#D50054 );
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.navbar{
+	background-color: #281D21;
+}
+
+
+.navbar-brand{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Playfair Display SC', serif;
+
+	font-size: 1.8rem;
+}
+
+.navbar-brand img{
+	height: 38px;
+	width: 75px;
+}
+
+.nav-link{
+	font-size: 1rem;
+	font-family: 'Julius Sans One', sans-serif;
+}
+.btn{
+	padding-left: 0px;
+	font-size: 32px;
+	background: none;
+	color:#D50054 ;
+	
+}
+
+.form-control{
+	border-radius: 20px 20px;
+	background-color: #BCBDB8 ;
+}
+
+.btn:hover{
+	color: #fff;
+}
+
+
+.carousel-item img{
+
+	height: 500px;
+}
+
+.carousel-caption h5{
+	color: #fff;
+	font-weight: 900;
+	font-size: 2rem;
+	font-family: 'Poppins', sans-serif;
+	-webkit-text-stroke: 1px #D50054;
+	
+}
+
+/* login css */
+.modal_size{
+	padding: 50px;
+}
+
+.labels{
+	color: #EBE6E8;
+}
+.login-btn{
+	padding: 5px;
+	width: 100%;
+	text-align: center!important;
+	font-family: 'poppins', sans-serif;
+	font-size: 25px;
+	color: #fff;
+	border-color: white;
+	background-color: #D50054;
+}
+.login-btn:hover{
+	color:#820032 ;
+	background-color: #281D21 ;
+}
+
+.modal_header{
+	color: #fff;
+	background-color: #281D21;
+	font-family: 'poppins', sans-serif;
+}
+
+.modal_body{
+	background-color:rgba(130, 0, 50 ,1.0);
+
+}
+
+.create{
+	padding: 10px 5px;
+	font-size: 20px;
+}
+.create a{
+	color: #EEA2C6;
+}
+.register{
+	display: none;
+}
+
+/*  */
+
+
+/*tab view*/
+@media (max-width: 975px){
+
+}
+
+/*mobile view*/
+
+@media (max-width: 576px){
+	
+	.navbar-brand{
+		margin: 0;
+		font-size: 1rem;
+	}
+	.navbar-brand img{
+		height: 10px;
+		width: 30px;
+	}
+	.form-inline{
+		margin: 0px;
+		padding: 0px;
+
+	}
+	
+	.form-control{
+		width: 50%;
+		border-radius: 20px 20px;
+		font-size: 10px;
+		
+	}
+	.btn{
+		
+		padding: 0px 1px;
+	}
+	
+	
+	
+	.carousel-item img{
+
+		height: 200px;
+
+	}
+
+	.form-group .form-control{
+		font-size: 20px;
+		width: 100%;
+	}
+	
+}	
